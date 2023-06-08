@@ -1,4 +1,4 @@
-import MyPDF2
+from MyPDF2 import PdfFileReader
 
 # open first pdf
 pdf1 = open('file1.pdf', 'rb')
@@ -9,3 +9,6 @@ pdf2 = open('file2.pdf', 'rb')
 #create a reader object
 reader1 = PyPDF2.PdfFileReader(pdf1)
 reader2 = PyPDF2.PdfFileReader(pdf2)
+
+# create a write object
+writer = P
